@@ -13,8 +13,8 @@ let lettersString = "";
 for (let i = 0; i < cadenaString.length; i++) {
   if (cadenaString[i] === cadenaString[cadenaString.length - 1]) {
     lettersString += cadenaString.charAt(i);
-  }else if (cadenaString[i] === " " )  {
-    lettersString = lettersString
+  } else if (cadenaString[i] === " ") {
+    lettersString = lettersString;
   } else {
     lettersString += cadenaString.charAt(i) + " - ";
   }
