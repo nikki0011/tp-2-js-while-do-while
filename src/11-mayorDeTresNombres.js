@@ -9,9 +9,6 @@ const name3=prompt('Ahora su nombre')
 const pantalla = document.getElementById('pantalla')
 
 let mayorEdad= Math.max(age1,age2,age3)
-// else if(mayorEdad === age1 && mayorEdad === age2 && mayorEdad === age3){
-//     pantalla.innerHTML = `De ${name1}, ${name2} y ${name3}: <span class="text-info">${name2}, ${name2}, ${name3} </span> tienen la misma edad `
-// }
 
 if(mayorEdad === age1 && mayorEdad === age2 && mayorEdad === age3){
     pantalla.innerHTML = `<span class="text-info">${name2}, ${name2}, ${name3} </span> tienen la misma edad `
